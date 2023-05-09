@@ -31,7 +31,7 @@ public class Pistol : MonoBehaviour
             
             //if (rb != null)
             if (rb)
-                rb.AddRelativeForce(0, 0, 10, ForceMode.Impulse);
+                rb.AddRelativeForce(0, 0, 20, ForceMode.Impulse);
 
         }
     }
